@@ -1,5 +1,5 @@
 ---
-title: "Module 4: Survey research design"
+title: "Module 5: Regression analysis"
 ---
 
 1.  Methods of data collection

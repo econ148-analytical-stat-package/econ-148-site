@@ -1,12 +1,12 @@
 ---
-title: "Module 2: Data management and transformation with Tidyverse"
+title: "Module 2: Exploring and generalizing data"
 ---
 
-1. Introduction to Tidyverse
-2. Data framea and tibble
-3. Basic data wrangling with dplyr
-4. Data reshaping
-5. Handling missing data
+1.  Introduction to Tidyverse
+2.  Data framea and tibble
+3.  Basic data wrangling with dplyr
+4.  Data reshaping
+5.  Handling missing data
 
 <a href="https://econ148-analytical-stat-package.github.io/econ148-lecture/module-2-data-management" target="_blank" class="btn-slides">View slides in new window</a>
 

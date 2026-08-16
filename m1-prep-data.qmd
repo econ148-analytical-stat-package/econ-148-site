@@ -1,5 +1,5 @@
 ---
-title: "Module 1: Intro to R programming"
+title: "Module 1: Preparing data for analysis"
 ---
 
 1.  R objects
@@ -55,4 +55,3 @@ install.packages(c("janitor", "readxl", "haven", "tidyverse", "skimr"))
 
 Please make sure to install the required packages before the class starts, as we may not have a secure internet connection. If you encounter any issues, please let me know.
 :::
-

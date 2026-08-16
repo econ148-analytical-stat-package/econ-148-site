@@ -35,7 +35,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./m1-intro-r.html" rel="next">
 <link href="./plot/econ148-hex-logo.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -298,34 +297,19 @@ ul.task-list li input[type="checkbox"] {
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./m1-intro-r.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Module 1: Introduction to R programming</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./m2-data-mgmt.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Module 2: Data management and transformation with Tidyverse</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./m2-intro-data-viz-ggplot.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Module 3: Intro to data visualization using ggplot2</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
- <span class="menu-text">Module 4: Data analysis report with Quarto</span>
+ <span class="menu-text">Module 1: Preparing data for analysis</span>
   </li>
           <li class="sidebar-item">
- <span class="menu-text">Module 5: Testing hypotheses</span>
+ <span class="menu-text">Module 2: Exploring and generalizing data</span>
   </li>
           <li class="sidebar-item">
- <span class="menu-text">Module 6: Regression analysis</span>
+ <span class="menu-text">Module 3: Comparison and correlations</span>
   </li>
           <li class="sidebar-item">
- <span class="menu-text">Module 7: Modelling probabilities</span>
+ <span class="menu-text">Module 4: Testing hypotheses</span>
+  </li>
+          <li class="sidebar-item">
+ <span class="menu-text">Module 5: Regression analysis</span>
   </li>
       </ul>
   </li>
@@ -393,9 +377,9 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="course-outline">Course outline</h3>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 26%">
-<col style="width: 25%">
-<col style="width: 48%">
+<col style="width: 21%">
+<col style="width: 21%">
+<col style="width: 57%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -406,13 +390,14 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td>Module 1: Introduction to R Programming</td>
+<td>Module 1: Preparing data for analysis</td>
 <td><ol type="1">
-<li>Installing R and RStudio</li>
-<li>R Basics</li>
-<li>Working with R scripts</li>
-<li>Importing data</li>
-<li>Basic data wrangling</li>
+<li>Basics of data structures and quality</li>
+<li>Data collection</li>
+<li>Survey and sampling</li>
+<li>Variables and data structures</li>
+<li>Encoding survey responses</li>
+<li>Cleaning and preparing datasets</li>
 </ol></td>
 <td><ol type="1">
 <li>Learn to install and configure R and RStudio.</li>
@@ -423,57 +408,31 @@ ul.task-list li input[type="checkbox"] {
 </ol></td>
 </tr>
 <tr class="even">
-<td>Module 2: Data management and transformation with Tiydverse</td>
+<td>Module 2: Exploring and generalizing data</td>
 <td><ol type="1">
-<li>Introduction to Tidyverse</li>
-<li>dplyr basics</li>
-<li>Data reshaping</li>
-<li>Handling missing data</li>
-<li>Case studies</li>
+<li>Frequencies and distribution</li>
+<li>Summary statistics</li>
+<li>Data visualization</li>
 </ol></td>
 <td><ol type="1">
-<li>Understand the philosophy of Tidyverse and its role in data science workflows.</li>
-<li>Learn functions for filtering, selecting, mutating, summarizing, and arranging data.</li>
-<li>Apply pivoting and joining techniques to restructure datasets.</li>
-<li>Identify, manage, and impute missing values in datasets.</li>
+<li>Use histograms and density plots to visualize how often specific values occur in a dataset</li>
+<li>Calculate measures of central tendency (mean, median) and spread (standard deviation, variance)</li>
+<li>Apply professional guidelines for usage, encoding, and scaffolding to produce informative graphs.</li>
 </ol></td>
 </tr>
 <tr class="odd">
-<td>Module 3: Introduction to data visualization using ggplot2</td>
+<td>Module 3: Comparison and correlations</td>
 <td><ol type="1">
-<li>Understanding grammar of graphics</li>
-<li>Dataset and mapping</li>
-<li>Geometries</li>
-<li>Statistical transformation and plotting distribution</li>
-<li>Position adjustment and scales</li>
+<li><p>Conditional statistics</p></li>
+<li><p>Association</p></li>
 </ol></td>
 <td><ol type="1">
-<li>Understand the grammar of graphics and its role in structuring visualizations.</li>
-<li>Create and customize basic plots including histograms, bar charts, boxplots, and scatterplot.</li>
-<li>Map variables to visual aesthetics such as color, shape, and size to enhance interpretability.</li>
-<li>Apply faceting techniques to produce multi-panel plots for comparative analysis.</li>
-<li>Modify plot themes and coordinate systems to improve clarity and accessibility.</li>
+<li>Compare the distribution and mean of an outcome variable across different values of a conditioning variable.</li>
+<li>Measure mean-dependence between variable using covariance and correlation coefficient..</li>
 </ol></td>
 </tr>
 <tr class="even">
-<td>Module 4: Data analysis report with Quarto in R</td>
-<td><ol type="1">
-<li>Introduction to Quarto</li>
-<li>Creating Quarto document</li>
-<li>Embedding R code</li>
-<li>Formatting Outputs</li>
-<li>Exporting reports</li>
-</ol></td>
-<td><ol type="1">
-<li>Learn to create dynamic, reproducible documents using Quarto and markdown syntax.</li>
-<li>Embed R code and inline calculations within narrative text to integrate analysis and interpretation.</li>
-<li>Format outputs such as tables and plots for professional presentation.</li>
-<li>Render reports to multiple formats including HTML, PDF, and Word for diverse audiences.</li>
-<li>Develop the ability to produce transparent, replicable research outputs for academic and policy contexts.</li>
-</ol></td>
-</tr>
-<tr class="odd">
-<td>Module 5: Testing hypothesis</td>
+<td>Module 4: Testing hypotheses</td>
 <td><ol type="1">
 <li>Logic of testing</li>
 <li>Decision-making</li>
@@ -481,44 +440,27 @@ ul.task-list li input[type="checkbox"] {
 <li>Multiple testing</li>
 </ol></td>
 <td><ol type="1">
-<li><p>Use data evidence to decide if a statement about a population pattern is likely true or false.</p></li>
-<li><p>Reject or maintain a null hypothesis (H0​ ) based on p-values or critical values.</p></li>
-<li><p>Distinguish between false positives (rejecting true H0​) and false negatives (failing to reject false H0​)</p></li>
-<li><p>Address the increased risk of false positives and “p-hacking” when testing many hypotheses simultaneously</p></li>
+<li>Use data evidence to decide if a statement about a population or general pattern is likely true or false.</li>
+<li>Apply t-tests and compare p-values against significance level to reject or maintain a null hypothesis.</li>
+<li>Distinguish between false positive (rejecting a true null) and false negatives (failing to reject a false null)</li>
+<li>Recognize the risk of “p-hacking” and false positives when testing many hypotheses simultaneously.</li>
 </ol></td>
 </tr>
-<tr class="even">
-<td>Module 6: Regression analysis</td>
+<tr class="odd">
+<td>Module 5: Regression analysis</td>
 <td><ol type="1">
 <li>Simple regression</li>
-<li>Predicted values</li>
-<li>Inference for coefficients</li>
+<li>Inderence for coefficients</li>
 <li>Multiple regression</li>
 <li>Categorical predictors</li>
 <li>Interactions</li>
 </ol></td>
 <td><ol type="1">
-<li>Model the conditional mean (E[y∣x]) using a best-fitting OLS line to find patterns of association.</li>
-<li>Calculate expected values (y^​) and use residuals to identify observations that deviate from the pattern.</li>
-<li>Use standard errors and confidence intervals to generalize sample slope estimates to the population</li>
-<li>Compare average y across x values while controlling for other variables (covariates) to reduce bias.</li>
-<li>Include qualitative information in models by transforming categories into binary dummy variables.</li>
-<li>Model how the relationship between y and x varies across different groups or values of a third variable</li>
-</ol></td>
-</tr>
-<tr class="odd">
-<td>Module 7: Modelling probabilities</td>
-<td><ol type="1">
-<li>Linear Probability Model (LPM)</li>
-<li>Nonlinear models</li>
-<li>Interpretations</li>
-<li>Evaluation</li>
-</ol></td>
-<td><ol type="1">
-<li>Apply standard linear regression to binary outcomes to estimate conditional probabilities.</li>
-<li>Use Logit and Probit link functions to ensure predicted probabilities remain strictly between zero and one</li>
-<li>Transform complex coefficients into “marginal differences” to show average changes in probability.</li>
-<li>Assess model performance using diagnostic tools like the Brier score and calibration curves</li>
+<li><p>Model mean-dependence between independent and dependent variable using best-fitting OLS line.</p></li>
+<li><p>Calculate expected values and use residuals to identify observations that deviate from general pattern.</p></li>
+<li><p>Compare average y across x values while controlling for other variables (covariates) to reduce bias.</p></li>
+<li><p>Include qualitative categories in regressions by transforming them into a series of binary dummy variables.</p></li>
+<li><p>Uncover how the relationship between y and x varies across different groups or values of a third variable.</p></li>
 </ol></td>
 </tr>
 </tbody>
@@ -941,15 +883,6 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="./m1-intro-r.html" class="pagination-link" aria-label="Module 1: Introduction to R programming">
-        <span class="nav-page-text">Module 1: Introduction to R programming</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 
 
