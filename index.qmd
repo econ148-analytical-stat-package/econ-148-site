@@ -1,0 +1,76 @@
+---
+title: "Econ 148: Analytical and statistical packages for economics 1"
+---
+
+<br>
+
+**Class schedule:** Wednesday \| 13:00 - 15:00 <br> **Laboratory schedule:** Wednesday \| 16:00 - 19:00 <br> **Instructor:** Christopher Llones <br> **e-mail:** christopher.llones\@vsu.edu.ph <br> **Pre-requisites:** Econ 115 - Econometrics <br> **Course credits:** 3 units <br> **Number of hours:** 2 hrs lectures and 3 hrs laboratory per week <br>
+
+------------------------------------------------------------------------
+
+### Course description
+
+This course introduces undergraduate students to the use of analytical and statistical packages in economics, with a focus on R programming. It provides hands‑on training in data management, visualization, and basic econometric analysis. Students will learn how to design surveys, handle datasets, test hypotheses, and build regression models, while producing clear and reproducible reports for academic and applied economic contexts.
+
+### Course objectives
+
+By the end of the course, students will be able to:
+
+1.  Install and use R and RStudio for economic data analysis.
+2.  Design and manage survey data, including creating questionnaires and codebooks.
+3.  Clean, transform, and organize datasets using Tidyverse functions.
+4.  Create effective visualizations with ggplot2 to present economic data clearly.
+5.  Apply hypothesis testing to evaluate economic questions using parametric and non‑parametric methods.
+6.  Perform correlation and regression analysis to explore relationships among economic variables.
+7.  Model binary outcomes using probability models such as Logit and Probit.
+8.  Prepare reproducible reports with Quarto, integrating code, results, and interpretation for academic assignments.
+
+### Course outline
+
++-------------------------------------------------------------+----------------------------------------------------------+----------------------------------------------------------------------------------------------------------------+
+| Topics                                                      | Lessons                                                  | Description                                                                                                    |
++=============================================================+==========================================================+================================================================================================================+
+| Module 1: Introduction to R Programming                     | 1.  Installing R and RStudio                             | 1.  Learn to install and configure R and RStudio.                                                              |
+|                                                             | 2.  R Basics                                             | 2.  Understand and apply basic R syntax including data types, vectors, and data frames.                        |
+|                                                             | 3.  Working with R scripts                               | 3.  Develop proficiency in writing, saving, and executing R scripts.                                           |
+|                                                             | 4.  Importing data                                       | 4.  Import dataset and prepare them for analysis.                                                              |
+|                                                             | 5.  Basic data wrangling                                 | 5.  Clean and transform data .                                                                                 |
++-------------------------------------------------------------+----------------------------------------------------------+----------------------------------------------------------------------------------------------------------------+
+| Module 2: Data management and transformation with Tiydverse | 1.  Introduction to Tidyverse                            | 1.  Understand the philosophy of Tidyverse and its role in data science workflows.                             |
+|                                                             | 2.  dplyr basics                                         | 2.  Learn functions for filtering, selecting, mutating, summarizing, and arranging data.                       |
+|                                                             | 3.  Data reshaping                                       | 3.  Apply pivoting and joining techniques to restructure datasets.                                             |
+|                                                             | 4.  Handling missing data                                | 4.  Identify, manage, and impute missing values in datasets.                                                   |
+|                                                             | 5.  Case studies                                         |                                                                                                                |
++-------------------------------------------------------------+----------------------------------------------------------+----------------------------------------------------------------------------------------------------------------+
+| Module 3: Introduction to data visualization using ggplot2  | 1.  Understanding grammar of graphics                    | 1.  Understand the grammar of graphics and its role in structuring visualizations.                             |
+|                                                             | 2.  Dataset and mapping                                  | 2.  Create and customize basic plots including histograms, bar charts, boxplots, and scatterplot.              |
+|                                                             | 3.  Geometries                                           | 3.  Map variables to visual aesthetics such as color, shape, and size to enhance interpretability.             |
+|                                                             | 4.  Statistical transformation and plotting distribution | 4.  Apply faceting techniques to produce multi-panel plots for comparative analysis.                           |
+|                                                             | 5.  Position adjustment and scales                       | 5.  Modify plot themes and coordinate systems to improve clarity and accessibility.                            |
++-------------------------------------------------------------+----------------------------------------------------------+----------------------------------------------------------------------------------------------------------------+
+| Module 4: Data analysis report with Quarto in R             | 1.  Introduction to Quarto                               | 1.  Learn to create dynamic, reproducible documents using Quarto and markdown syntax.                          |
+|                                                             | 2.  Creating Quarto document                             | 2.  Embed R code and inline calculations within narrative text to integrate analysis and interpretation.       |
+|                                                             | 3.  Embedding R code                                     | 3.  Format outputs such as tables and plots for professional presentation.                                     |
+|                                                             | 4.  Formatting Outputs                                   | 4.  Render reports to multiple formats including HTML, PDF, and Word for diverse audiences.                    |
+|                                                             | 5.  Exporting reports                                    | 5.  Develop the ability to produce transparent, replicable research outputs for academic and policy contexts.  |
++-------------------------------------------------------------+----------------------------------------------------------+----------------------------------------------------------------------------------------------------------------+
+| Module 5: Testing hypothesis                                | 1.  Logic of testing                                     | 1.  Use data evidence to decide if a statement about a population pattern is likely true or false.             |
+|                                                             | 2.  Decision-making                                      |                                                                                                                |
+|                                                             | 3.  Errors                                               | 2.  Reject or maintain a null hypothesis (H0​ ) based on p-values or critical values.                           |
+|                                                             | 4.  Multiple testing                                     |                                                                                                                |
+|                                                             |                                                          | 3.  Distinguish between false positives (rejecting true H0​) and false negatives (failing to reject false H0​)   |
+|                                                             |                                                          |                                                                                                                |
+|                                                             |                                                          | 4.  Address the increased risk of false positives and "p-hacking" when testing many hypotheses simultaneously  |
++-------------------------------------------------------------+----------------------------------------------------------+----------------------------------------------------------------------------------------------------------------+
+| Module 6: Regression analysis                               | 1.  Simple regression                                    | 1.  Model the conditional mean (E\[y∣x\]) using a best-fitting OLS line to find patterns of association.       |
+|                                                             | 2.  Predicted values                                     | 2.  Calculate expected values (y\^​) and use residuals to identify observations that deviate from the pattern.  |
+|                                                             | 3.  Inference for coefficients                           | 3.  Use standard errors and confidence intervals to generalize sample slope estimates to the population        |
+|                                                             | 4.  Multiple regression                                  | 4.  Compare average y across x values while controlling for other variables (covariates) to reduce bias.       |
+|                                                             | 5.  Categorical predictors                               | 5.  Include qualitative information in models by transforming categories into binary dummy variables.          |
+|                                                             | 6.  Interactions                                         | 6.  Model how the relationship between y and x varies across different groups or values of a third variable    |
++-------------------------------------------------------------+----------------------------------------------------------+----------------------------------------------------------------------------------------------------------------+
+| Module 7: Modelling probabilities                           | 1.  Linear Probability Model (LPM)                       | 1.  Apply standard linear regression to binary outcomes to estimate conditional probabilities.                 |
+|                                                             | 2.  Nonlinear models                                     | 2.  Use Logit and Probit link functions to ensure predicted probabilities remain strictly between zero and one |
+|                                                             | 3.  Interpretations                                      | 3.  Transform complex coefficients into "marginal differences" to show average changes in probability.         |
+|                                                             | 4.  Evaluation                                           | 4.  Assess model performance using diagnostic tools like the Brier score and calibration curves                |
++-------------------------------------------------------------+----------------------------------------------------------+----------------------------------------------------------------------------------------------------------------+
