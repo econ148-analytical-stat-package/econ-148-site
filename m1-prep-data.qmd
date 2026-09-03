@@ -1,11 +1,11 @@
 ---
-title: "Module 1: Preparing data for analysis"
+title: "Module 1: Intro to Statistical Methods"
 ---
 
-1.  R objects
-2.  R packages
-3.  Reading data in R
-4.  Basic data wrangling
+1. Basics of statistical concept
+2. Questionnaire design
+3. Encoding survey responses
+4. Cleaning and preparing datasets
 
 <a href="https://econ148-analytical-stat-package.github.io/econ148-lecture/module-01-intro-r" target="_blank" class="btn-slides">View slides in new window</a>
 

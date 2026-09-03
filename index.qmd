@@ -4,7 +4,7 @@ title: "Econ 148: Analytical and statistical packages for economics 1"
 
 <br>
 
-**Class schedule:** Wednesday \| 13:00 - 15:00 <br> **Laboratory schedule:** Wednesday \| 16:00 - 19:00 <br> **Instructor:** Christopher Llones <br> **e-mail:** christopher.llones\@vsu.edu.ph <br> **Pre-requisites:** Econ 115 - Econometrics <br> **Course credits:** 3 units <br> **Number of hours:** 2 hrs lectures and 3 hrs laboratory per week <br>
+**Class schedule:** Friday \| 10:00 - 12:00 <br> **Laboratory schedule:** Friday \| 13:00 - 16:00 <br> **Instructor:** Christopher Llones <br> **e-mail:** christopher.llones\@vsu.edu.ph <br> **Pre-requisites:** Econ 106 - Computer programming for Economics <br> **Course credits:** 3 units <br> **Number of hours:** 2 hrs lectures and 3 hrs laboratory per week <br>
 
 ------------------------------------------------------------------------
 
@@ -16,7 +16,7 @@ This course introduces undergraduate students to the use of analytical and stati
 
 By the end of the course, students will be able to:
 
-1.  Install and use R and RStudio for economic data analysis.
+1.  Use R and RStudio for economic data analysis.
 2.  Design and manage survey data, including creating questionnaires and codebooks.
 3.  Clean, transform, and organize datasets using Tidyverse functions.
 4.  Create effective visualizations with ggplot2 to present economic data clearly.
@@ -27,36 +27,34 @@ By the end of the course, students will be able to:
 
 ### Course outline
 
-+-------------------------------------------+-------------------------------------------+---------------------------------------------------------------------------------------------------------------------+
-| Topics                                    | Lessons                                   | Description                                                                                                         |
-+===========================================+===========================================+=====================================================================================================================+
-| Module 1: Preparing data for analysis     | 1.  Basics of data structures and quality | 1.  Learn to install and configure R and RStudio.                                                                   |
-|                                           | 2.  Data collection                       | 2.  Understand and apply basic R syntax including data types, vectors, and data frames.                             |
-|                                           | 3.  Survey and sampling                   | 3.  Develop proficiency in writing, saving, and executing R scripts.                                                |
-|                                           | 4.  Variables and data structures         | 4.  Import dataset and prepare them for analysis.                                                                   |
-|                                           | 5.  Encoding survey responses             | 5.  Clean and transform data .                                                                                      |
-|                                           | 6.  Cleaning and preparing datasets       |                                                                                                                     |
-+-------------------------------------------+-------------------------------------------+---------------------------------------------------------------------------------------------------------------------+
-| Module 2: Exploring and generalizing data | 1.  Frequencies and distribution          | 1.  Use histograms and density plots to visualize how often specific values occur in a dataset                      |
-|                                           | 2.  Summary statistics                    | 2.  Calculate measures of central tendency (mean, median) and spread (standard deviation, variance)                 |
-|                                           | 3.  Data visualization                    | 3.  Apply professional guidelines for usage, encoding, and scaffolding to produce informative graphs.               |
-+-------------------------------------------+-------------------------------------------+---------------------------------------------------------------------------------------------------------------------+
-| Module 3: Comparison and correlations     | 1.  Conditional statistics                | 1.  Compare the distribution and mean of an outcome variable across different values of a conditioning variable.    |
-|                                           |                                           | 2.  Measure mean-dependence between variable using covariance and correlation coefficient..                         |
-|                                           | 2.  Association                           |                                                                                                                     |
-+-------------------------------------------+-------------------------------------------+---------------------------------------------------------------------------------------------------------------------+
-| Module 4: Testing hypotheses              | 1.  Logic of testing                      | 1.  Use data evidence to decide if a statement about a population or general pattern is likely true or false.       |
-|                                           | 2.  Decision-making                       | 2.  Apply t-tests and compare p-values against significance level to reject or maintain a null hypothesis.          |
-|                                           | 3.  Errors                                | 3.  Distinguish between false positive (rejecting a true null) and false negatives (failing to reject a false null) |
-|                                           | 4.  Multiple testing                      | 4.  Recognize the risk of "p-hacking" and false positives when testing many hypotheses simultaneously.              |
-+-------------------------------------------+-------------------------------------------+---------------------------------------------------------------------------------------------------------------------+
-| Module 5: Regression analysis             | 1.  Simple regression                     | 1.  Model mean-dependence between independent and dependent variable using best-fitting OLS line.                   |
-|                                           | 2.  Inderence for coefficients            |                                                                                                                     |
-|                                           | 3.  Multiple regression                   | 2.  Calculate expected values and use residuals to identify observations that deviate from general pattern.         |
-|                                           | 4.  Categorical predictors                |                                                                                                                     |
-|                                           | 5.  Interactions                          | 3.  Compare average y across x values while controlling for other variables (covariates) to reduce bias.            |
-|                                           |                                           |                                                                                                                     |
-|                                           |                                           | 4.  Include qualitative categories in regressions by transforming them into a series of binary dummy variables.     |
-|                                           |                                           |                                                                                                                     |
-|                                           |                                           | 5.  Uncover how the relationship between y and x varies across different groups or values of a third variable.      |
-+-------------------------------------------+-------------------------------------------+---------------------------------------------------------------------------------------------------------------------+
++-----------------------------------------------+-------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------+
+| Topics                                        | Lessons                             | Description                                                                                                                           |
++===============================================+=====================================+=======================================================================================================================================+
+| Module 1: Introduction to Statistical Methods | 1.  Basics of statistical concept   | 1.  Understand variables, data types, and measures of central tendency (mean, median) and variability (standard deviation, variance). |
+|                                               | 2.  Questionnaire design            | 2.  Create valid and reliable survey instruments for collecting economic and social data.                                             |
+|                                               | 3.  Encoding survey responses       | 3.  Learn proper coding and data entry practices to ensure accuracy and consistency in datasets.                                      |
+|                                               | 4.  Cleaning and preparing datasets | 4.  Detect errors, handle missing values, and organize raw survey data into structured formats ready for analysis.                    |
++-----------------------------------------------+-------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------+
+| Module 2: Exploring and generalizing data     | 1.  Frequencies and distribution    | 1.  Use histograms and density plots to visualize how often specific values occur in a dataset                                        |
+|                                               | 2.  Summary statistics              | 2.  Calculate measures of central tendency (mean, median) and spread (standard deviation, variance)                                   |
+|                                               | 3.  Data visualization              | 3.  Apply professional guidelines for usage, encoding, and scaffolding to produce informative graphs.                                 |
++-----------------------------------------------+-------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------+
+| Module 3: Comparison and correlations         | 1.  Conditional statistics          | 1.  Compare the distribution and mean of an outcome variable across different values of a conditioning variable.                      |
+|                                               |                                     | 2.  Measure mean-dependence between variable using covariance and correlation coefficient..                                           |
+|                                               | 2.  Association                     |                                                                                                                                       |
++-----------------------------------------------+-------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------+
+| Module 4: Testing hypotheses                  | 1.  Logic of testing                | 1.  Use data evidence to decide if a statement about a population or general pattern is likely true or false.                         |
+|                                               | 2.  Decision-making                 | 2.  Apply t-tests and compare p-values against significance level to reject or maintain a null hypothesis.                            |
+|                                               | 3.  Errors                          | 3.  Distinguish between false positive (rejecting a true null) and false negatives (failing to reject a false null)                   |
+|                                               | 4.  Multiple testing                | 4.  Recognize the risk of "p-hacking" and false positives when testing many hypotheses simultaneously.                                |
++-----------------------------------------------+-------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------+
+| Module 5: Regression analysis                 | 1.  Simple regression               | 1.  Model mean-dependence between independent and dependent variable using best-fitting OLS line.                                     |
+|                                               | 2.  Inderence for coefficients      |                                                                                                                                       |
+|                                               | 3.  Multiple regression             | 2.  Calculate expected values and use residuals to identify observations that deviate from general pattern.                           |
+|                                               | 4.  Categorical predictors          |                                                                                                                                       |
+|                                               | 5.  Interactions                    | 3.  Compare average y across x values while controlling for other variables (covariates) to reduce bias.                              |
+|                                               |                                     |                                                                                                                                       |
+|                                               |                                     | 4.  Include qualitative categories in regressions by transforming them into a series of binary dummy variables.                       |
+|                                               |                                     |                                                                                                                                       |
+|                                               |                                     | 5.  Uncover how the relationship between y and x varies across different groups or values of a third variable.                        |
++-----------------------------------------------+-------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------+
