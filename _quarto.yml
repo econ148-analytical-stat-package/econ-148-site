@@ -21,7 +21,7 @@ website:
       - section: "Topics"
         contents:
           - href: "m1-intro-stat-method.qmd"
-            text: "Module 1: Preparing data for analysis"
+            text: "Module 1: Intro to Statistical Methods"
           - href: ""
             text: "Module 2: Exploring and generalizing data"
           - href: ""
