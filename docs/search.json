@@ -18,7 +18,7 @@
     "href": "m1-prep-data.html",
     "title": "Module 1: Intro to Statistical Methods",
     "section": "",
-    "text": "Basics of statistical concept\nQuestionnaire design\nEncoding survey responses\nCleaning and preparing datasets\nView slides in new window"
+    "text": "Basics of statistical concept\nQuestionnaire design\nEncoding survey responses\nCleaning and preparing datasets\n\nView slides in new window"
   },
   {
     "objectID": "m1-prep-data.html#exercises",
@@ -57,5 +57,16 @@
     "title": "Module 4: Testing hypotheses",
     "section": "",
     "text": "Introduction to Quarto\nQuarto document elements\nExercise: generating reports\nImproving report\n\nView slides in new window\n\n\n\n\n\nPresentation keyboard shortcuts\n\n\n\nUse ← and → to navigate through the slides\n\n\nUse F to toggle full screen\n\n\nUse O to view an overview of all slides\n\n\nUse ? to see a list of other shortcuts"
+  },
+  {
+    "objectID": "m1-intro-stat-method.html",
+    "href": "m1-intro-stat-method.html",
+    "title": "Module 1: Intro to Statistical Methods",
+    "section": "",
+    "text": "Basics of statistical concept\nQuestionnaire design\nEncoding survey responses\nCleaning and preparing datasets\n\nView slides in new window",
+    "crumbs": [
+      "Topics",
+      "Module 1: Preparing data for analysis"
+    ]
   }
 ]

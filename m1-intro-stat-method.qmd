@@ -1,0 +1,16 @@
+---
+title: "Module 1: Intro to Statistical Methods"
+---
+
+1.  Basics of statistical concept
+2.  Questionnaire design
+3.  Encoding survey responses
+4.  Cleaning and preparing datasets
+
+<a href="https://docs.google.com/presentation/d/e/2PACX-1vSUEKyYs67WaD9csYOQBqpK1BYl-sed1_t0WFx4Fnj7ZvCAIBY6NIdWSVaEgkXgiQ/pubembed?start=false&loop=false&delayms=60000" target="_blank" class="btn-slides">View slides in new window</a>
+
+::: {.box style="padding-bottom:56.25%; position:relative; display:block; width: 100%"}
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSUEKyYs67WaD9csYOQBqpK1BYl-sed1_t0WFx4Fnj7ZvCAIBY6NIdWSVaEgkXgiQ/pubembed?start=false&amp;loop=false&amp;delayms=60000" frameborder="0" width="100%" height="100%" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" style="position:absolute; top:0; left: 0">
+
+</iframe>
+:::
